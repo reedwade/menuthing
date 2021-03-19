@@ -13,7 +13,7 @@ menu:
     - label: kittens
       open: https://kittens.nz
 
-    - type: ----
+    - type: --
 
     - type: clock
       label: 3:04pm Brisbane
@@ -24,7 +24,7 @@ menu:
       open: https://kittens.nz
 
     - type: clock
-      label: 3:04pm Los Angeles
+      label: 3:04pm California
       tz: America/Los_Angeles
 
     - type: clock
@@ -35,7 +35,7 @@ menu:
       label: 3:04pm Indianapolis
       tz: America/Indianapolis
 
-    - type: ----
+    - type: --
 
     - open: https://pkg.go.dev/
 
