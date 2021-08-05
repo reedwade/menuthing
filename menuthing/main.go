@@ -145,7 +145,7 @@ func action(item MenuConfigItem) func(*systray.MenuItem) {
 			ff := strings.Fields(item.Exec)
 			c := exec.Command(ff[0])
 			if len(ff) > 1 {
-				c.Args = ff[1:]
+				c.Args = ff
 			}
 			c.Stderr = os.Stderr
 			c.Stdout = os.Stdout
